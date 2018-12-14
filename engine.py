@@ -1,9 +1,11 @@
 import os
 import shutil
+import re
 
 print("Webpage name: ", end='')
 pagename = input()
 # TODO: Error check for nonalphanum or nonspaces
+# re.match('^[\w-]+$', str)
 
 # ASSUME: webpage is valid folder name
 # TODO: make spaces underscores
